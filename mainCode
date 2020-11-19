@@ -71,7 +71,6 @@ void setup() {
   // Print a message to the LCD.
   lcd.setCursor(3, 0);
   
-  myservo.attach(servo_motor);
   mySerial.begin(9600);
   Serial.begin(9600);
    lcd.setCursor(0,0);
